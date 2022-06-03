@@ -1,0 +1,142 @@
+.brand_28{
+    display: flex;
+    
+}
+body{
+    margin: 0;
+}
+.main_brand_28{
+    width: 680px;
+    height: 770px;
+    background-color:#fff;
+    border-radius:20px;
+    padding-left:20px;
+    padding-top: 20px;
+    padding-right:20px;
+    margin-top: 10px;
+    box-sizing:border-box;
+}
+.head_brand_28{
+    margin-top:10px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.number_28{
+    width: 90px;
+    height: 40px;
+    background-color:#FF868E;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 30px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color:#fff;
+    box-sizing:border-box;
+    margin-left: 10px;
+}
+.centr_img{
+    margin-top: 20px;
+    position: relative;
+}
+.centr_krug{
+    width: 90px;
+    height: 30px;
+    background-color:#fff;
+    border-radius:20px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom:-10px;
+    left:275px;
+    align-items:center;
+    padding: 10px;
+    box-sizing:border-box;
+}
+.oval{
+    width: 10px;
+    height: 10px;
+    background-color:#FBE0DC;
+    border-radius:50%;
+}
+.footer_brand_28{
+    width: 640px;
+    height: 204px;
+    border: 2px solid #FBE0DC;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+    margin-top:51px ;
+    position: relative;
+}
+.fot_left{
+    width:270px;
+    height: 69px;
+    margin-left: 40px;
+    text-align: left;
+}
+.fot_right{
+    margin-left:25px;
+}
+.fot_centr{
+    display: flex;
+    
+}
+.heig{
+    display: flex;
+    align-items:baseline;
+    padding-bottom:10px ;
+}
+.heig h3{
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.heig p{
+    margin: 0;
+    color:#8C8C8C;
+}
+.fot_title_left{
+    margin: 0;
+}
+.fot_text_left{
+    margin: 0;
+}
+.brand_28_fot{
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color:#8C8C8C;
+    margin-top:26px ;
+}
+.fot_title_left{
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color:black;
+}
+.fot_text_left{
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color:#8C8C8C;
+}
+
+.poroda{
+    color:black;
+    padding: 0 40px;
+    position: absolute;
+    background-color:#fff;
+    top:-27px; 
+    left:185px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    width:193px ;
+    
+}

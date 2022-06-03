@@ -1,0 +1,236 @@
+.right_dog{
+    width: 50%;
+}
+.nav_right{
+    display: flex;
+}
+.head_but{
+    display: flex;
+    align-items:center;
+}
+.search_dog{
+    border-radius:20px;
+    border: none;
+    width: 470px;
+    height: 60px;
+    background-color:#fff;
+    padding-left:20px;
+    box-sizing:border-box;
+}
+.search_main{
+    position: relative;
+    margin-top: 30px;
+}
+.search_but{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    bottom: 10px;
+    background: #FBE0DC;
+    border-radius: 10px;
+    border:none;
+    width: 40px;
+    height: 40px;
+}
+.smile_nav{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+    padding-top:15px;
+    box-sizing:border-box;
+}
+
+/*right*/
+.main_right_dog{
+    width: 680px;
+    height: 782px;
+    background-color:#fff;
+    border-radius:20px;
+    margin-top: 10px;
+}
+.arrow{
+    background-color: #FBE0DC;
+    border-radius:10px;
+    color: #FF868E;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing:border-box;
+}
+.vot{
+    background: #FF868E;
+    border-radius: 10px;
+    padding:5px 30px;
+    text-decoration: none;
+    color:#FFF;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left:5px;
+    width: 140px;
+    height: 40px;
+    box-sizing:border-box;
+}
+.head_but{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items:center;
+}
+.dog_centr{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:10px;
+}
+.main_img_centr{
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 52px;
+    height: 360px;
+    width: 640px;
+    margin-top: 20px; 
+}
+.image_nav{
+    position: absolute;
+    bottom:-45px;
+    left:50%;
+    transform: translate(-50%);
+    border-radius:20px;
+    border:1px solid white;
+    background-color:#fff;
+    display:flex;
+    padding: 4px;
+}
+.vote_like{
+    width: 80px;
+    height: 80px;
+    background-color:#97EAB9;
+    border-radius:20px 0 0 20px;
+    border:none;
+    cursor: pointer;
+}
+.vote_like:hover{
+    background-color:rgba(151, 234, 185, 0.3);
+    border:none;
+    cursor: pointer;
+}
+.vote_like:active{
+    background: #97EAB9;
+}
+.vote_fav{
+    width: 80px;
+    height: 80px;
+    background-color:#FF868E;
+    margin-right: 4px;
+    margin-left: 4px;
+    border:none;
+    cursor: pointer;
+}
+.vote_fav:hover{
+    background-color:rgba(255, 134, 142, 0.3);
+    border:none;
+    cursor: pointer;
+}
+.vote_fav:active path{
+    fill:white;
+    stroke: none;
+}
+.vote_fav.active path{
+    fill:white;
+    stroke: none;
+}
+.vote_fav:active{
+    background-color: #FF868E;
+}
+.vote_dis{
+    width: 80px;
+    height: 80px;
+    background-color:#FFD280;
+    border-radius:0px 20px 20px 0px;
+    border:none;
+    cursor: pointer;
+}
+.vote_dis:hover{
+    background-color:rgba(255, 210, 128, 0.3);
+    border:none;
+    cursor: pointer;
+}
+.vote_dis:active{
+    background: #FFD280;
+}
+.form_footer{
+    width: 640px;
+    height: 60px;
+    display:flex;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    justify-content: space-between;
+    background-color:#F8F8F7;
+    border-radius: 10px;
+    align-items:center;
+    box-sizing:border-box;
+    padding: 20px 20px 20px 25px;
+}
+.fot_text{
+    margin-left: -180px;
+}
+.fot_date{
+    background-color:#fff;
+    padding:3px 10px ;
+}
+
+@media(max-width:1200px){
+    .left_home{
+        width: 40%;
+        padding:20px;
+        margin-right:15px;
+    }
+    .main_right_dog{
+        height: 750px;
+    }
+    .form_footer{
+        height: 53px;
+    }
+    .image_nav{
+        bottom:-40px;
+    }
+}
+@media(max-width:992px){
+    .main_right_dog{
+
+    }
+    .main_img_centr{
+        width: 620px;
+    }
+    .form_footer{
+        width: 635px;
+    }
+    .main_right_dog{
+        width: 675px;
+    }
+    .search_dog{
+        height: 55px;
+    }
+    .smile_nav{
+        height: 57px;
+        width: 57px;
+    }
+}
+
+@media(max-width:768px){
+    .fot_date{
+        font-size:18px ;
+    }
+    .fot_text{
+        font-size: 18px;
+        margin-left: -160px;
+    }
+}
